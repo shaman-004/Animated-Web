@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+    font-family: "Nimbus Sans L", sans-serif;
+    
+}
+#main{
+    height: 100%;
+
+
+}
+#nav{
+    display:flex;
+    justify-content: space-between;
+    
+    position: relative;
+    padding: 2vw 6vw;
+    /* background-color:#a19797; */
+    height: 10%;
+}
+#nav a{
+    
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    
+    
+}
+#nleft{
+    display: flex;
+    gap: 30px;
+    
+}
+ #center{
+    
+display: flex;
+justify-content: space-between;
+align-items: center;
+    margin: 20px 0px;
+    transform: translate(-50%,-50%);
+}
+#nright{
+    display: flex;
+    gap: 30px;
+    
+}
+#body{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+    width: 100%;
+     padding:0vw 6.4vw;
+    margin-top: 15vw;
+    display: flex;
+    
+    
+}
+#cars{
+    width: 10vw;
+    
+    
+    
+}
+  
+#cars #cars1{
+    position: relative;
+    overflow: hidden;
+    width: 10vw;
+height: 15vw;
+
+
+}
+#cars p{
+    width: 10vw;
+    font-weight:lighter;
+    
+}
+#cars1 img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+#porsche{
+    position: relative;
+    width: 25vw;
+    min-height: 36vw;
+   
+
+    
+}
+#porsche img{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+#porsche #heading{
+  position: absolute;
+    top: -20%;
+    left:-10%;
+   
+
+
+    
+   
+    
+
+}
+#porsche h1,h2{
+    
+   line-height: 1;
+    font-size: 4vw;
+    font-weight:300;
+    
+
+
+}
+#circle{
+    border-radius: 50%;
+    border: 1px solid #5c5d58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5vw;
+    height: 2.5vw;
+    
+}
+#visit{
+    color:#000000;
+    display: flex;
+    justify-content: center;
+    gap: 0.5vw;
+    margin-top: 1vw;
+}
+#circle i{
+    color: #5c5d58;
+    font-size: 1.2vw;
+    align-items: center;
+    justify-content: center;
+}
+#visit h3{
+    font-size: 1.3vw;
+    font-weight: lighter;
+    margin-left: 1vw;
+}
+#motive{
+    margin-top: 7vw;
+    display: flex;
+    justify-content: space-between;
+    padding:0vw 6.4vw;
+    line-height: 1.5;
+    
+}
+
+#motive p{
+    
+line-height: 1.9;
+    left: 50px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+}
+#motive span{
+    display: inline-block;
+    
+    
+    border-radius: 20px;
+    margin: 10px 10px;
+    margin-bottom: -13px;
+    
+}
+#span1{
+    width:60px;
+    height: 30px;
+    background-image: url(./car1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#span2{
+    width:60px;
+    height: 30px;
+    background-image: url(./car2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#span3{
+    
+    width:70px;
+    height: 35px;
+    background-image: url(./car3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#span4{
+    width:60px;
+    height: 30px;
+    background-image: url(./car4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#span5{
+    width:80px;
+    height: 30px;
+    background-image: url(./car5.jpg);
+    background-size: cover;
+    background-position: 70% 70%;
+}
+
+#pictures{
+    display: flex;
+    justify-content: space-between;
+    
+padding: 4vw;
+   padding-left: 10vw;
+   padding-right: 12vw;
+
+}
+
+#firstpic{
+    width: 18vw;
+    line-height: 1;
+
+    
+    
+}
+#firstpic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+#firstpic #imges{
+    
+     width: 100%; 
+     height: 24vw;
+     margin-bottom: 1vw;
+     
+
+}
+#firstpic p{
+    font-size: 1vw;
+    font-weight: lighter;
+    margin-top: 0.5vw;
+    
+    
+}
+#firstpic h2{
+    font-size: 3vw;
+     margin-bottom: 0.5vw;
+}
+#secpic{
+    width: 20vw;
+    line-height: 1;
+margin-right: 10vw;
+    
+    
+}
+#secpic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+#secpic #imges{
+    
+     width: 105%; 
+     height: 35vw;
+     margin-bottom: 1.7vw;
+     
+
+}
+#secpic p{
+    font-size: 1vw;
+    font-weight: lighter;
+    
+    margin-top: 0.5vw;
+    margin-top: -0.5vw;
+    
+    
+}
+#secpic h2{
+    font-size: 3vw;
+        margin-bottom: 0.5vw;
+    
+    margin-top: -1vw;
+
+}
+#poster{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10vw;
+    padding: 6.5vw 0;
+
+
+}
+#images{
+    width: 70%;
+    height: 80vh;
+    object-fit: cover;
+    
+}
+#images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:0% 70%;
+}
+#text{
+    width: 40%;
+    padding:0 6.4vw;
+    margin-top: 1.5vw;
+    line-height: 1.5;   
+
+}
+#text p{
+    letter-spacing: -0.5px;
+    font-size: 1.2vw;
+}
+
+#future{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0 6.5vw ;
+    
+}
+#future video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: calc(0.1);
+}
+  #text{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 1vw;
+    border-radius: 20px;
+    
+}  
+#text h2{
+    font-size: 3vw;
+    font-weight: lighter;
+    margin-bottom: 0.1vw;
+    text-align: center;
+    letter-spacing: -0.4px;
+   
+}
+#text p{
+    font-size: 1.2vw;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 1vw;
+    letter-spacing: -1.0px;
+    width: 20vw;
+}
+#text button{
+    padding: 1vw 2vw;
+    border-radius: 20px;
+    border: 0.5px solid #5c5d58;
+    background-color:#ffffff;
+    color: rgb(60, 58, 58);
+    font-size: 1.1vw;
+    font-weight: lighter;
+    letter-spacing: -0.5px;      
+}
+
+
+
+
+
+
