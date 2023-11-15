@@ -1,4 +1,5 @@
 # Animated-Web
+https://img.shields.io/badge/left-right-f39f37
 Create a simple web page using html,css,js,gsap
 
 
