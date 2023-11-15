@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
+    <link rel="icon" href="./car3.jpg">
+    
+    <title>Porsche</title>
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+            <div id="nleft">
+                <a class="nlink" href="#">Menu</a>
+                <a class="nlink"href="#">Pricing</a>
+                <a class="nlink" href="#">Models</a>
+            </div>
+            <a class="nlink" id="center" href="#">Porsche</a>
+            <div id="nright">
+                <a class="nlink" href="#">login</a>
+            </div>
+            
+        </div>
+        <div id="body">
+            <div class="animation" id="cars">
+                <h1>Hello Porsche 911</h1>
+                <p>Drive the car smoothly</p>
+                <div id="cars1">
+                    <img src="./porsche.jpg" alt="car">
+                </div>
+            </div> 
+           <div class="animation"   id="porsche">
+            <img class="porsche" src="./porsche1.jpg" alt="car">
+                <div id="heading">
+                <h2>Timeless Machine 911..</h2>
+                </div>
+           
+           </div>
+           <div class="animation" id="visit">
+           <h3>Visit Our Store..</h3>
+            <div id="circle">
+            <i class="ri-arrow-down-line"></i>
+        </div>
+        
+           </div>
+        </div>
+        <div id="motive">
+            <h3>Our Motive</h3>
+            <p>Our Motive is to <span  id="span1"></span>provide the best car to our customers and to provide a great customer <span id="span2"></span>satisfaction while buying , here in Porsche showroom <span id="span3"></span>we bring you a great a luxurious feeling, Porsche has grown from its humble<span id="span4"></span> beginnings to one of the most well-known luxury car brands in the world. Learn more about Porsche history,<span id="span5"></span>then become a part of the tradition at FJ Porsche Fremont.</p>
+        </div>
+        <div id="pictures">
+            <div id="firstpic">
+                <div class="porsche"   id="imges">
+                    <img src="./car1.jpg" alt="">
+                </div>
+                <h2>Synergy</h2>
+                <p>A porsche with a great synergy all around the corners.</p>
+            </div>
+            <div id="secpic">
+                <div class="porsche" id="imges">
+                    <img src="./car5.jpg" alt="">
+                </div>
+                <h2>Power</h2>
+                <p>A porsche with a great power all around the world.</p>
+            </div>
+
+        </div>
+        <div id="poster">
+            <div id="images">
+                <img src="./p1.jpg" alt="">
+                <img src="./p2.jpg" alt="">
+            </div>
+           <div id="text">
+            <h2>Bottle</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, numquam.</p>
+           </div>
+        </div>
+        <div id="future">
+            
+            <video autoplay muted loop src="./video.mp4"></video>
+            <div id="text">
+                <h2>Future</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                <button>Click On Future</button>
+        </div>
+
+
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+<script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+<script src="script.js"></script>
+<script>
+     document.querySelector("#text button")
+    .addEventListener("mouseleave",function () {
+        gsap.to("#future video",{
+            y:10,
+            duration:0.5,
+            ease:Power2,
+            opacity:0,
+        })
+    })
+ document.querySelector("#text button")
+    .addEventListener("mouseover",function () {
+        gsap.to("#future video",{
+            y:10,
+            duration:0.5,
+            ease:Power2,
+            opacity:1,
+        })
+    })
+   
+Shery.imageEffect("#images",{
+    style:4,
+    config:{"uColor":{"value":false},"uSpeed":{"value":0.28,"range":[0.1,1],"rangep":[1,10]},"uAmplitude":{"value":1.5,"range":[0,5]},"uFrequency":{"value":3.5,"range":[0,10]},"geoVertex":{"range":[1,64],"value":32},"zindex":{"value":-9996999,"range":[-9999999,9999999]},"aspect":{"value":1.6091425256295753},"ignoreShapeAspect":{"value":true},"shapePosition":{"value":{"x":0,"y":0}},"shapeScale":{"value":{"x":0.5,"y":0.5}},"shapeEdgeSoftness":{"value":0,"range":[0,0.5]},"shapeRadius":{"value":0,"range":[0,2]},"currentScroll":{"value":0},"scrollLerp":{"value":0.07},"gooey":{"value":true},"infiniteGooey":{"value":true},"growSize":{"value":4,"range":[1,15]},"durationOut":{"value":1,"range":[0.1,5]},"durationIn":{"value":1.5,"range":[0.1,5]},"displaceAmount":{"value":0.5},"masker":{"value":false},"maskVal":{"value":1,"range":[1,5]},"scrollType":{"value":0},"noEffectGooey":{"value":true},"onMouse":{"value":1},"noise_speed":{"value":0.2,"range":[0,10]},"metaball":{"value":0.2,"range":[0,2],"_gsap":{"id":31}},"discard_threshold":{"value":0.5,"range":[0,1]},"antialias_threshold":{"value":0,"range":[0,0.1]},"noise_height":{"value":0.5,"range":[0,2]},"noise_scale":{"value":7.63,"range":[0,100]}},
+    
+    gooey:true
+
+    
+})
+Shery.imageEffect("#cars1 img",{
+    style:4,
+config:{"uColor":{"value":false},"uSpeed":{"value":0.27,"range":[0.1,1],"rangep":[1,10]},"uAmplitude":{"value":0.38,"range":[0,5]},"uFrequency":{"value":1.15,"range":[0,10]},"geoVertex":{"range":[1,64],"value":64},"zindex":{"value":-9996999,"range":[-9999999,9999999]},"aspect":{"value":0.6666666666666666},"ignoreShapeAspect":{"value":true},"shapePosition":{"value":{"x":0,"y":0}},"shapeScale":{"value":{"x":0.5,"y":0.5}},"shapeEdgeSoftness":{"value":0,"range":[0,0.5]},"shapeRadius":{"value":0,"range":[0,2]},"currentScroll":{"value":0},"scrollLerp":{"value":0.07},"gooey":{"value":false},"infiniteGooey":{"value":false},"growSize":{"value":4,"range":[1,15]},"durationOut":{"value":1,"range":[0.1,5]},"durationIn":{"value":1.5,"range":[0.1,5]},"displaceAmount":{"value":0.5},"masker":{"value":true},"maskVal":{"value":1.31,"range":[1,5]},"scrollType":{"value":0},"noEffectGooey":{"value":true},"onMouse":{"value":0},"noise_speed":{"value":0.2,"range":[0,10]},"metaball":{"value":0.2,"range":[0,2]},"discard_threshold":{"value":0.5,"range":[0,1]},"antialias_threshold":{"value":0.002,"range":[0,0.1]},"noise_height":{"value":0.5,"range":[0,2]},"noise_scale":{"value":10,"range":[0,100]}},
+    
+})
+
+Shery.imageEffect(" .porsche img",{
+    style:4,
+    config:{"uFrequencyX":{"value":10.69,"range":[0,100]},"uFrequencyY":{"value":11.45,"range":[0,100]},"uFrequencyZ":{"value":16.79,"range":[0,100]},"geoVertex":{"range":[1,64],"value":64},"zindex":{"value":-9996999,"range":[-9999999,9999999]},"aspect":{"value":0.6944569880147243},"ignoreShapeAspect":{"value":true},"shapePosition":{"value":{"x":0,"y":0}},"shapeScale":{"value":{"x":0.5,"y":0.5}},"shapeEdgeSoftness":{"value":0,"range":[0,0.5]},"shapeRadius":{"value":0,"range":[0,2]},"currentScroll":{"value":0},"scrollLerp":{"value":0.07},"gooey":{"value":false},"infiniteGooey":{"value":false},"growSize":{"value":4,"range":[1,15]},"durationOut":{"value":1,"range":[0.1,5]},"durationIn":{"value":1.5,"range":[0.1,5]},"displaceAmount":{"value":0.5},"masker":{"value":true},"maskVal":{"value":1.73,"range":[1,5]},"scrollType":{"value":0},"noEffectGooey":{"value":true},"onMouse":{"value":0},"noise_speed":{"value":0.2,"range":[0,10]},"metaball":{"value":0.2,"range":[0,2]},"discard_threshold":{"value":0.5,"range":[0,1]},"antialias_threshold":{"value":0.002,"range":[0,0.1]},"noise_height":{"value":0.5,"range":[0,2]},"noise_scale":{"value":10,"range":[0,100]}},
+
+    
+    })
+   
+    
+    
+
+    gsap.from("#porsche img",{
+        y:"80",
+        duration:5,
+        ease:Expo,
+        opacity:0,
+    })
+Shery.textAnimate("#heading h2" , {
+    
+    style: 2,
+    y: 10,
+    delay: 0.1,
+    duration: 2,
+    ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+    multiplier: 0.1,
+  });
+
+gsap.from(".nlink",{
+    stagger:0.2,
+    y:10,
+    duration:2,
+    ease:Power2,
+    opacity:0,
+})
+ gsap.to(".animation",{
+      y:30,
+      stagger:0.3,
+      opacity:1,
+      ease:power1,
+      duration:1.3,
+       
+  })
+  
+    
+  
+  
+  
+</script>
+
+</body>
+</html>
