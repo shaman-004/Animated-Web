@@ -6,13 +6,13 @@ Created a simple web page using Html,Css,Js,Gsap
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Hello, world!</title>
+  
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
   <link rel="icon" href="favicon.png">
 </head>
 <body>
-  <img alt="Static Badge" src="https://img.shields.io/badge/contributors-red">
+  <img alt="Static Badge" src="https://img.shields.io/badge/contributors-red-1">
 <img alt="Static Badge" src="https://img.shields.io/badge/twitter-blue">
 <img alt="Static Badge" src="https://img.shields.io/badge/color-blue">
 
