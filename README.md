@@ -12,9 +12,9 @@ Created a simple web page using Html,Css,Js,Gsap
   <link rel="icon" href="favicon.png">
 </head>
 <body>
-  <img alt="Static Badge" src="https://img.shields.io/badge/contributors-red-1">
-<img alt="Static Badge" src="https://img.shields.io/badge/twitter-blue">
-<img alt="Static Badge" src="https://img.shields.io/badge/color-blue">
+  <img alt="Static Badge" src="https://img.shields.io/badge/contributors-1">
+<img alt="Static Badge" src="https://img.shields.io/badge/twitter-blue-10">
+<img alt="Static Badge" src="https://img.shields.io/badge/color-blue-nothing">
 
 [![My Skills](https://skills.thijs.gg/icons?i=js,html,css,wasm)](https://skills.thijs.gg)
 </body>
